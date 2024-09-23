@@ -22,7 +22,7 @@ class Controller extends \Illuminate\Routing\Controller
 {
     public function init(): \Illuminate\Http\JsonResponse
     {
-        /*
+
 
         //$start = microtime(true);
         //dump("получение всех персонажей");
@@ -129,7 +129,7 @@ class Controller extends \Illuminate\Routing\Controller
            // dump("время настроойки связей: " . round($end - $start, 2) . " seconds");
 
         });
-        */
+
 
         $characters_count = Character::count();
         $locations_count = Location::count();
